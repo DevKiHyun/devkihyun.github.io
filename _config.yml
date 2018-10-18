@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "DevKiHyun's Deep Learning"
 title_separator          : "-"
-name                     : "KiHyun"
+name                     : "KiHyun Nam"
 description              : "An amazing website."
 url                      : "https://devkihyun.github.io"
 baseurl                  : ""
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "KiHyun Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Deep Learning student"
   location         : "Somewhere"
-  email            :
+  email            : "devkihyun@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
