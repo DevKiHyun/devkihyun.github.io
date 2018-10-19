@@ -7,6 +7,7 @@ tags:
   - statics
   - machine learning
   - deep learning
+layout: archive
   
 last_modified_at: 2018-10-19T14:27:00+09:00
 comments : true
