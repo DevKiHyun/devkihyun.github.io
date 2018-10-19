@@ -10,7 +10,7 @@ tags:
 last_modified_at: 2018-10-19T14:27:00+09:00
 comments : true
 
-gallery:
+gallery_1:
   - url: https://github.com/DevKiHyun/devkihyun.github.io/blob/master/_posts/2018-10-19-Machine_learning_and_Probability/0.PNG
     image_path: https://github.com/DevKiHyun/devkihyun.github.io/blob/master/_posts/2018-10-19-Machine_learning_and_Probability/0.PNG
     title: "Explain neural network"
