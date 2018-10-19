@@ -9,6 +9,11 @@ tags:
   - deep learning
 last_modified_at: 2018-10-19T14:27:00+09:00
 comments : true
+
+gallery_1: 
+  - url: /_posts/2018-10-19-Machine_learning_and_Probability/0.PNG
+    image_path: /_posts/2018-10-19-Machine_learning_and_Probability/0.PNG
+    title: "Explain neural network"
 ---
 
 안녕하세요. 이번 시간에는 머신러닝과 확률을 얘기하려고 합니다. 최소한 [모두의 딥러닝](https://hunkim.github.io/ml/) 강의를 이수한 수준은 필요로 하고 기본적으로 고등학교 수준의 확률과 통계를 알고 있다고 여기고 진행하겠습니다.
@@ -20,9 +25,4 @@ comments : true
 
 __분류 문제(Classification)__ 를 예시로 한번 들어보겠습니다. 우리가 딥러닝으로는 제일 먼저 해보게 되는게 아마 __MNIST 숫자 손글씨 데이터__ 로 해당 숫자를 분류해보는 과제일겁니다. MNIST는 __숫자 데이터 X와 클래스 Y(라벨)가 쌍으로 구성된 데이터셋__ 입니다. 단순하게 베이직한 뉴럴네트워크로 이루어져 있는 모델이 있다고 하면, 우리가 입력 값으로 X를 넣으면, 모델이 계산한 결과(Output)를 Y랑 비교하면서 잘 분류가 되도록 학습됩니다. 즉, 이 모델은 데이터 X를 잘 이해해서 해당 클래스 Y를 *'예측'* 할 수 있는 *'함수'* 를 알아내는 겁니다. 보통은 이 학습과정을 선형대수로도 충분히 설명을 할 수 있습니다. 지금까지 설명한 내용을 아래의 그림으로 간단히 나타낼 수 있습니다.
 
-<p align="center"> 
-    <img src="https://github.com/DevKiHyun/devkihyun.github.io/blob/master/_posts/2018-10-19-Machine_learning_and_Probability/0.PNG" alt="alternate text">
-    <br/>
-    (그림출처 http://sanghyukchun.github.io/58/)
-</p>
-
+{% include gallery id="gallery_1" caption="그림출처 http://sanghyukchun.github.io/58/" %}
