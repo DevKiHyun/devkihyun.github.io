@@ -1,7 +1,7 @@
 ---
 title: "머신러닝과 확률"
 categories:
-  - probability
+  - study
 tags:
   - probability
   - statics
