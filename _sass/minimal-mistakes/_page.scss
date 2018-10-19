@@ -24,7 +24,7 @@
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-    padding-right: calc(100% - 66%)
+    padding-right: calc(100% - 66%);
   }
 
   @include breakpoint($x-large) {
