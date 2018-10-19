@@ -23,13 +23,13 @@
   @include breakpoint($large) {
     float: right;
     padding-right: $right-sidebar-width-narrow;
-    padding-right: calc(100% / 3);
+    padding-right: calc(33%);
     width: calc(100% - 100px);
   }
 
   @include breakpoint($x-large) {
     padding-right: $right-sidebar-width;
-    padding-right: calc(100% / 3);
+    padding-right: calc(33%);
     width: calc(100% - 100px);
   }
 
