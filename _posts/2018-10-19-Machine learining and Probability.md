@@ -9,6 +9,7 @@ tags:
   - deep learning
 last_modified_at: 2018-10-19T14:27:00+09:00
 comments : true
+mathjax: true
 ---
 
 안녕하세요. 이번 시간에는 머신러닝과 확률을 얘기하려고 합니다. 최소한 김성훈 교수님의 [모두의 딥러닝](https://hunkim.github.io/ml/) 강의를 이수한 수준은 필요로 하고 기본적으로 고등학교 수준의 확률과 통계를 알고 있다고 여기고 진행하겠습니다.
