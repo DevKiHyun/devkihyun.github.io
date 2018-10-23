@@ -68,7 +68,7 @@ $$ Given: 입력값 X $$
 
 $$ Interest: 라벨 Y $$
 
-입력값 X를 넣어주면 Y가 나올 확률
+<p align="center"> 입력값 X를 넣어주면 Y가 나올 확률 </p>
 
 $$ P(Y \mid X) $$
 
