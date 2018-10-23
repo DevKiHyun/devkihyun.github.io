@@ -136,7 +136,6 @@ $$ f_{h}(y) $$ 가 $$ f_{r}(y) $$ 보다 낮은 값을 갖고 있는 것을 볼 
 
 <figure class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2018-10-19-Machine_learning_and_Probability/7.png" alt="">
-  <figcaption>그림출처 https://web.stanford.edu/class/cs294a/sparseAutoencoder.pdf</figcaption>
 </figure>
 
 
