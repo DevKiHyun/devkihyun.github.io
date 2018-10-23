@@ -126,6 +126,17 @@ $$ f_{h}(y) $$ 가 $$ f_{r}(y) $$ 보다 낮은 값을 갖고 있는 것을 볼 
   <figcaption>그림출처 https://assessingpsyche.wordpress.com/2014/01/23/conditional-normal-distributions-provide-useful-information-in-psychological-assessment/</figcaption>
 </figure>
 
+MNIST 분류 모델이 위의 그림같은 분포를 띈다는 것이 아니라 단순하게는 나오지 않는다는 것을 보여드리기 위한 예시니 헷갈리시지 않으셨으면 합니다. 분포가 복잡하다 해도 결국 관측값을 통해서 $$ \theta $$ 를 찾아야 된다는 것은 변함이 없습니다. 
+
+
+
+
+
+
+
+
+
+
 
 
 
