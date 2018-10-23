@@ -81,8 +81,9 @@ $$ P(Y \mid X) $$
 
 그러면 __Likelihood__ 도 확률분포의 결과값이고 __확률__ 도 결과값이면 이 둘은 같은 개념일까요? 엄밀히 말하자면 이 둘은 같지 않습니다. 가설로 세워진 확률 분포에 대해서 관측값을 넣어서 나온 결과값은 __Likelihood__ 이고, 반대로 실제 고정된 확률 분포에 관측값을 넣었을 때 나온 결과값이 __확률__ 입니다. 즉, __Likelihood__ 는 언제든 __Parameter__ 가 바뀌면 관측값은 고정이여도 결과값이 다르게 나올 수 있는 것이죠. 그래서 __Likelihood__ 를 $$ \theta $$ 에 대한 확률이라고 말하기도 합니다. 가정한 $$ \theta_{hypothesis} $$ 가 실제 확률 분포의 $$ \theta_{real} $$ 와 얼마나 가까운지로 얘기 할 수 있다는 거죠.
 
-$$ Given \theta : Probability 
-$$ Given observed X : Likelihood
+$$ Given $$ $$ \theta : Probability $$ 
+
+$$ Given $$ $$ observed X : Likelihood $$
 
 진행하기 앞서 이제부턴 __Paratemer__ 를 $$ \theta $$ 로 표기하도록 하겠습니다.
 
