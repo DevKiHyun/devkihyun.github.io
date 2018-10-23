@@ -126,7 +126,7 @@ $$ f_{h}(y) $$ 가 $$ f_{r}(y) $$ 보다 낮은 값을 갖고 있는 것을 볼 
   <figcaption>그림출처 https://assessingpsyche.wordpress.com/2014/01/23/conditional-normal-distributions-provide-useful-information-in-psychological-assessment/</figcaption>
 </figure>
 
-이렇게 확률 변수가 많아지게 되면 나오게 되는 분포가 입체적이게 됩니다. 따라서 데이터가 고차원이고 다변수의 경우에는 더 확률 분포를 알아내기가 어려워집니다. 하지만 분포가 복잡하다 해도 결국 관측값을 통해서 $$ \theta $$ 를 찾아야 된다는 것은 변함이 없습니다. 아래 그림은 $$ P(Y \mid X) $$ 를 좀 더 간단하게 표현한 그림입니다.
+이렇게 확률 변수가 많아지게 되면 나오게 되는 분포가 입체적이게 됩니다. 위의 경우엔 $$ Z $$축에 확률 분포가 놓이게 되는거죠. 현실에서는 데이터가 고차원이고 다변수의 경우도 많아 확률 분포를 알아내기가 어려워집니다. 하지만 분포가 복잡하다 해도 결국 관측값을 통해서 $$ \theta $$ 를 찾아야 된다는 것은 변함이 없습니다. 아래 그림은 $$ P(Y \mid X) $$ 를 평면도로 좀 더 간단하게 표현한 그림입니다.
 
 <figure class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2018-10-19-Machine_learning_and_Probability/6.png" alt="">
