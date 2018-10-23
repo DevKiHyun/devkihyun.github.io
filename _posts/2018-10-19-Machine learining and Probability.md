@@ -83,7 +83,7 @@ $$ P(Y \mid X) $$
 
 $$ Given $$ $$ \theta : Probability $$ 
 
-$$ Given $$ $$ observed X : Likelihood $$
+$$ Given $$ $$ observed $$ $$ X : Likelihood $$
 
 진행하기 앞서 이제부턴 __Paratemer__ 를 $$ \theta $$ 로 표기하도록 하겠습니다.
 
