@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
     {% if script contains "://" %}
@@ -26,3 +30,5 @@
 
 {% include_cached analytics.html %}
 {% include_cached /comments-providers/scripts.html %}
+
+
