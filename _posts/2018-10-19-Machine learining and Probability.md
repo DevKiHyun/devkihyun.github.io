@@ -1,5 +1,5 @@
 ---
-title: "머신러닝과 확률"
+title: "머신러닝(Machine Learning)과 확률(Probability)"
 categories:
   - study
 tags:
