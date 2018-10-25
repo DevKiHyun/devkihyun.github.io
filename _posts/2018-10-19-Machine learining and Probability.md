@@ -142,7 +142,7 @@ $$ f_{h}(y) $$ 가 $$ f_{r}(y) $$ 보다 낮은 값을 가진 것을 볼 수 있
   <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2018-10-19-Machine_learning_and_Probability/7.png" alt="">
 </figure>
 
-그리고 나서 여러분들은 얻어낸 $$ \theta $$ 와 $$ Y $$를 해당 문제에 적합한 __Loss function__ 을 이용해 계산해주시면 됩니다.
+그리고 나서 여러분들은 얻어낸 $$ \theta $$ 와 $$ Y $$를 적합한 __Loss function__ 을 이용해 계산해주시면 됩니다.
 
 이렇게 해서 우리는 분류문제의 모든 과정을 최대한 확률론적 관점으로 설명을 했습니다. 결국 $$ \theta $$를 알아야 한 다는 점에선 기존과 크게 다를건 없습니다. $$ \theta $$ 를 관심사로 두게 되면 우리는 
 
