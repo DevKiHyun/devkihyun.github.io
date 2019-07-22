@@ -1,5 +1,3 @@
-# Paper Review 2 - VDSR [Super Resolution]
-
 # [Accurate Image Super-Resolution Using Very Deep Convolutional Networks](https://arxiv.org/pdf/1511.04587v2.pdf)
 
 - Accepted Conference Name & Year : CVPR 2016
@@ -15,13 +13,18 @@
 
 ## Proposed Architecture
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-b567e118-f2ae-4859-9f12-5926cdeb84cb.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-b567e118-f2ae-4859-9f12-5926cdeb84cb.png" alt="">
+</figure> 
 
 ## Dataset
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-bd8eb022-47fe-41ae-8597-7396aee7dcc0.png" alt="">
+</figure> 
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-bd8eb022-47fe-41ae-8597-7396aee7dcc0.png)
-
-![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-fc2f199c-011b-479e-8227-7d4d7f47831f.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/ssets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-fc2f199c-011b-479e-8227-7d4d7f47831f.png" alt="">
+</figure> 
 
 ## Valuable Relative Works
 
