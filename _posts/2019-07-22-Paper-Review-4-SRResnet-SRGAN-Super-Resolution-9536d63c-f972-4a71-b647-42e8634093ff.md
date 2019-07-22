@@ -1,4 +1,16 @@
-# Paper Review 4 - SRResnet, SRGAN [Super Resolution]
+---
+title: "Paper Review 4 - SRResnet, SRGAN [Super Resolution]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Super Resolution
+last_modified_at: 2019-07-22T23:11:00+09:00
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
 
 # [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/pdf/1609.04802.pdf)
 
@@ -12,16 +24,20 @@
 - 이런 문제를 해결하기 위해 GAN을 기반으로 하는 SRGAN은 Real patch 들의 분포를 학습해서 패턴을 만들기 때문에 굉장히 Realistic 하게 보이게 된다. 물론 GAN 특성 상 Ground truth 와는 다른 패턴이 되기도 한다.
 
 ## Proposed Architecture
-
-![](Untitled-e3d739d2-e7f7-4e6d-93a2-f33baf8f4622.png)
-
-![](Untitled-13c852de-b751-44a3-9edb-72a31c097a54.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-e3d739d2-e7f7-4e6d-93a2-f33baf8f4622.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-13c852de-b751-44a3-9edb-72a31c097a54.png" alt="">
+</figure> 
 
 ## Dataset
-
-![](Untitled-87dee319-30b5-4fa9-935c-605f5d54b540.png)
-
-![](Untitled-00d7f15d-7a43-43d8-9dbd-12efc0586a88.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-87dee319-30b5-4fa9-935c-605f5d54b540.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-00d7f15d-7a43-43d8-9dbd-12efc0586a88.png" alt="">
+</figure> 
 
 ## Valuable Relative Works
 
