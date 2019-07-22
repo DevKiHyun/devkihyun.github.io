@@ -1,3 +1,19 @@
+    
+---
+title: "Paper Review 2 - VDSR [Super Resolution]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Super Resolution
+last_modified_at: 2019-09-22T22:45:00+09:00
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
+
 # [Accurate Image Super-Resolution Using Very Deep Convolutional Networks](https://arxiv.org/pdf/1511.04587v2.pdf)
 
 - Accepted Conference Name & Year : CVPR 2016
