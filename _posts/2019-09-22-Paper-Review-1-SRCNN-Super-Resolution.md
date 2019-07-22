@@ -12,14 +12,14 @@
 
 ## Proposed Architecture
 
-![](Untitled-52136ee9-9772-45c3-a483-536a95c56c0c.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-52136ee9-9772-45c3-a483-536a95c56c0c.png)
 
 ## Dataset
 
-![](Untitled-6d0ac5d9-ced6-4d34-99dc-d3c38a0e982f.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-6d0ac5d9-ced6-4d34-99dc-d3c38a0e982f.png)
 
-![](Untitled-e2ae3957-7edd-49ee-85bd-91e4c8662ac5.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-e2ae3957-7edd-49ee-85bd-91e4c8662ac5.png)
 
-![](Untitled-554cb224-b113-4aa9-9c4d-b9ac440ed58b.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-554cb224-b113-4aa9-9c4d-b9ac440ed58b.png)
 
-![](Untitled-f92eedcf-7207-4b5e-b0e1-2dfa2086cc98.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-f92eedcf-7207-4b5e-b0e1-2dfa2086cc98.png)
