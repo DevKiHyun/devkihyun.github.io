@@ -1,12 +1,11 @@
-    
 ---
-title: "Paper Review 2 - VDSR [Super Resolution]"
+title: "머신러닝(Machine Learning)과 확률(Probability)"
 categories:
   - study
 tags:
   - deep learning
   - Super Resolution
-last_modified_at: 2019-09-22T22:45:00+09:00
+last_modified_at: 2019-07-22T22:45:00+09:00
 mathjax: true
 sitemap :
   changefreq : daily
