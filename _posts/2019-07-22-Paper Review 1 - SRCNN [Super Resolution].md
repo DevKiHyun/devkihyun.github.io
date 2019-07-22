@@ -1,3 +1,18 @@
+---
+title: "Paper Review 1 - SRCNN [Super Resolution]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Super Resolution
+last_modified_at: 2019-07-22T22:45:00+09:00
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
+
 # [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/pdf/1501.00092.pdf)
 
 - Accepted Conference Name & Year : IEEE, 2014
