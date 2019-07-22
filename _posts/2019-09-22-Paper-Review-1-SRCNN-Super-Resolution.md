@@ -1,3 +1,18 @@
+---
+title: "Paper Review 1 - SRCNN [Super Resolution]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Super Resolution
+last_modified_at: 2019-09-22T22:30:00+09:00
+comments : true
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
 # Paper Review 1 - SRCNN [Super Resolution]
 
 # [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/pdf/1501.00092.pdf)
@@ -12,14 +27,13 @@
 
 ## Proposed Architecture
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-52136ee9-9772-45c3-a483-536a95c56c0c.png)
-
+![Alt Text](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-52136ee9-9772-45c3-a483-536a95c56c0c.png)
 ## Dataset
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-6d0ac5d9-ced6-4d34-99dc-d3c38a0e982f.png)
+![Alt Text](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-6d0ac5d9-ced6-4d34-99dc-d3c38a0e982f.png)
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-e2ae3957-7edd-49ee-85bd-91e4c8662ac5.png)
+![Alt Text](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-e2ae3957-7edd-49ee-85bd-91e4c8662ac5.png)
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-554cb224-b113-4aa9-9c4d-b9ac440ed58b.png)
+![Alt Text](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-554cb224-b113-4aa9-9c4d-b9ac440ed58b.png)
 
-![](https://github.com/DevKiHyun/devkihyun.github.io/tree/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-f92eedcf-7207-4b5e-b0e1-2dfa2086cc98.png)
+![Alt Text](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-1-SRCNN-Super-Resolution/Untitled-f92eedcf-7207-4b5e-b0e1-2dfa2086cc98.png)
