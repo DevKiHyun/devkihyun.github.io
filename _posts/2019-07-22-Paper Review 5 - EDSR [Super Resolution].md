@@ -5,7 +5,7 @@ categories:
 tags:
   - deep learning
   - Super Resolution
-last_modified_at: 2019-07-22T23:11:00+09:00
+last_modified_at: 2019-07-22T23:21:00+09:00
 mathjax: true
 sitemap :
   changefreq : daily
