@@ -1,4 +1,16 @@
-# Paper Review 6 - RDN [Super Resolution]
+---
+title: "Paper Review 6 - RDN [Super Resolution]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Super Resolution
+last_modified_at: 2019-07-22T23:25:00+09:00
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
 
 # [Residual Dense Network for Image Super-Resolution](https://arxiv.org/pdf/1802.08797.pdf)
 
@@ -12,18 +24,23 @@
 - 학습 시 just bicubic, blur, gaussian noise 세 가지 방식으로 input 데이터를 처리하는 실험을 진행해 자세한 결과를 나타냈다.
 
 ## Proposed Architecture
-
-![](Untitled-018cead3-42c7-4735-b3ec-a0fd763791e1.png)
-
-![](Untitled-8cae05a5-af63-4f9b-93b8-08fc1ca33042.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-6-RDN-Super-Resolution/Untitled-018cead3-42c7-4735-b3ec-a0fd763791e1.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-6-RDN-Super-Resolution/Untitled-8cae05a5-af63-4f9b-93b8-08fc1ca33042.png" alt="">
+</figure> 
 
 ## Dataset
-
-![](Untitled-f7917cf6-84e1-42e5-9757-812c2adb89ac.png)
-
-![](Untitled-3e21e98d-f9aa-4704-b1be-84e1f645f048.png)
-
-![](Untitled-22fc337b-9675-48b4-87f8-18c76d9d1c3f.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-6-RDN-Super-Resolution/Untitled-f7917cf6-84e1-42e5-9757-812c2adb89ac.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-6-RDN-Super-Resolution/Untitled-3e21e98d-f9aa-4704-b1be-84e1f645f048.png" alt="">
+</figure>
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-6-RDN-Super-Resolution/Untitled-22fc337b-9675-48b4-87f8-18c76d9d1c3f.png" alt="">
+</figure> 
 
 ## Valuable Relative Works
 
