@@ -15,13 +15,13 @@
 
 ## Proposed Architecture
 
-![](Untitled-b567e118-f2ae-4859-9f12-5926cdeb84cb.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-b567e118-f2ae-4859-9f12-5926cdeb84cb.png)
 
 ## Dataset
 
-![](Untitled-bd8eb022-47fe-41ae-8597-7396aee7dcc0.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-bd8eb022-47fe-41ae-8597-7396aee7dcc0.png)
 
-![](Untitled-fc2f199c-011b-479e-8227-7d4d7f47831f.png)
+![](https://github.com/DevKiHyun/devkihyun.github.io/blob/master/assets/post_images/2019-09-22-Paper-Review-2-VDSR-Super-Resolution/Untitled-fc2f199c-011b-479e-8227-7d4d7f47831f.png)
 
 ## Valuable Relative Works
 
