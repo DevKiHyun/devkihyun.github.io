@@ -19,7 +19,7 @@ sitemap :
 
 ## Contribution
 
-- 기존의 Deep Learning 을 적용한 SR 기법들은 Upsampling 단계 없이 입력 LR 이미지의 크기를 HR 해상도에 맞춰두고 진행하기 때문에 높은 계산량을 요구했다.
+- 기존의 Deep Learning 을 적용한 SR 기법들은 Upscaling 단계 없이 입력 LR 이미지의 크기를 HR 해상도에 맞춰두고 진행하기 때문에 높은 계산량을 요구했다.
 - 이번 논문은 입력 LR 이미지 크기를 늘리거나 또는 모델 단계에서 명시적인 upscaling layer 를 학습 할 필요없이 feature maps 에서 픽셀들을 뽑아 HR 이미지로 upscaling을 해주기 때문에 연산량을 줄일 수 있다.
 
 ## Proposed Architecture
