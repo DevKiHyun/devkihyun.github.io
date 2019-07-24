@@ -7,6 +7,7 @@ tags:
   - Super Resolution
 last_modified_at: 2019-07-22T22:45:00+09:00
 mathjax: true
+comments: true
 sitemap :
   changefreq : daily
   priority : 1.0
