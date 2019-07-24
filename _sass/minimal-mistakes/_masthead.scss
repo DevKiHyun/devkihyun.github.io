@@ -15,9 +15,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-     /*
     padding: 1em;
-     */
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,7 +26,7 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: $max-width;
     }
 
     nav {
@@ -41,6 +39,10 @@
   }
 }
 
+.site-logo img {
+  max-height: 2rem;
+}
+
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,6 +51,11 @@
   align-self: center;
   font-weight: bold;
   z-index: 20;
+}
+
+.site-subtitle {
+  display: block;
+  font-size: $type-size-8;
 }
 
 .masthead__menu {
