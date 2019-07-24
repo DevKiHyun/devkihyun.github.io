@@ -7,6 +7,7 @@ tags:
   - Visualizaion
   - Representation
 last_modified_at: 2019-07-22T23:21:00+09:00
+comments: true
 mathjax: true
 sitemap :
   changefreq : daily
