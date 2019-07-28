@@ -26,7 +26,7 @@ sitemap :
 - 각각의 reconstruct loss 를 결합한 것 뿐이기 때문에 심플한 구조가 장점이다.
 - 기본적으로 이미지의 feature 를 extraction 하기 위해서 기존의 State of the Art 한 CNN 모델을 pretrained 모델로 사용한다. 본 논문에선 VGG19를 사용했다.
 
-## Contribution
+## Comments
 
 - 직접 구현하면서 알게 된 점은 오픈소스에 공개된 pretrained model들의 가중치가 동일한 것이 아니기 때문에 각 모델에서 extraction 된 이미지의 feature가 전부 동일한 값을 갖고 있다고 할 수 없다. 이런 부분이 style transfer 의 결과에 어느정도 영향을 주기도 한다. 따라서 결과가 이상하게 나온다면 pretrained model을 다른 오픈소스를 사용해보는 것을 추천한다. (Keras 에서 offical 로 제공하는 VGG는 VGG19 보단 VGG16을 쓰는것이 좋다.)
 - Style 이 너무 강한 경우엔 오히려 기괴한? 느낌을 주는 결과를 내보내기도 한다.
