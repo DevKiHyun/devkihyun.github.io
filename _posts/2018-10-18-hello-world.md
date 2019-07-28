@@ -1,6 +1,6 @@
 ---
 title: "Start blog"
-last_modified_at: 2018-10-19T10:57:00+09:00
+last_modified_at: 2018-10-18T10:57:00+09:00
 comments : true
 sitemap :
   changefreq : daily
