@@ -1,4 +1,18 @@
-# Paper Review 9 - FARED [Anomaly Detection]
+---
+title: "Paper Review 9 - FARED [Anomaly Detection]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Anomaly Dectection
+  - Representation
+last_modified_at: 2019-07-28T22:13:00+09:00
+comments: true
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
 
 # [Fast Adaptive RNN Encoder–Decoder for Anomaly Detection in SMD Assembly Machine](https://www.mdpi.com/1424-8220/18/10/3573)
 
@@ -11,18 +25,23 @@
 - 정상적인 소리만 가지고서 입력한 뒤 다시 입력과 동일한 출력이 나오도록 학습 시킨다. 뿐만 아니라 최대한 정상적인 소리에 대해서만 오버피팅이 잘 되도록 한다. 그러면 비정상적인 소리가 들어올 경우 제대로 복원이 되지 않기 때문에 복원 정도에 대한 오차로 정상/비정상을 판단 할 수 있게된다.
 
 ## Proposed Architecture
-
-![](Untitled-21fb0f8f-0d52-4428-a2c8-ef8c4362d809.png)
-
-![](Untitled-18f7bb3c-bbfa-408d-a7e6-d727eb643147.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-9-FARED-Anomaly-Detection/Untitled-21fb0f8f-0d52-4428-a2c8-ef8c4362d809.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-9-FARED-Anomaly-Detection/Untitled-18f7bb3c-bbfa-408d-a7e6-d727eb643147.png" alt="">
+</figure> 
 
 ## Dataset
-
-![](Untitled-42bfc58b-418b-4676-bf45-8a00485eb655.png)
-
-![](Untitled-04987144-d5e7-48db-91e3-969cd7b2e4f2.png)
-
-![](Untitled-6f617184-4df0-4f34-b2e1-fe2676806298.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-9-FARED-Anomaly-Detection/Untitled-42bfc58b-418b-4676-bf45-8a00485eb655.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-9-FARED-Anomaly-Detection/Untitled-04987144-d5e7-48db-91e3-969cd7b2e4f2.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-9-FARED-Anomaly-Detection/Untitled-6f617184-4df0-4f34-b2e1-fe2676806298.png" alt="">
+</figure> 
 
 ## Valuable Relative Works
 
