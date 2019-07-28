@@ -5,7 +5,6 @@ categories:
 tags:
   - deep learning
   - Anomaly Dectection
-  - Representation
 last_modified_at: 2019-07-28T22:13:00+09:00
 comments: true
 mathjax: true
