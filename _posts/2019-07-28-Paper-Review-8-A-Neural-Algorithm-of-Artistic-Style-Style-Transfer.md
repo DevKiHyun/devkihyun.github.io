@@ -22,7 +22,7 @@ sitemap :
 ## Contribution
 
 - 이전의 [[Understanding Deep Image Representations by Inverting Them](https://arxiv.org/pdf/1412.0035.pdf)] 에서 이미지의 feature 으로부터 이미지를 복원이 가능한 것을 확인할 수 있다.
-- 원본 이미지의 content 를 reconstruct 하면서 동시에 style 을 제공하는 이미지의 feature 와도 같아지게끔 하면 reconstruct 하면 어떻게 될지를 잘 보여주는 정말 인상 깊은 논문이다.
+- 원본 이미지의 content 를 reconstruct 하면서 동시에 style 을 제공하는 이미지의 feature 와도 같아지게끔 reconstruct 하면 어떻게 될지를 잘 보여주는 정말 인상 깊은 논문이다.
 - 각각의 reconstruct loss 를 결합한 것 뿐이기 때문에 심플한 구조가 장점이다.
 - 기본적으로 이미지의 feature 를 extraction 하기 위해서 기존의 State of the Art 한 CNN 모델을 pretrained 모델로 사용한다. 본 논문에선 VGG19를 사용했다.
 
