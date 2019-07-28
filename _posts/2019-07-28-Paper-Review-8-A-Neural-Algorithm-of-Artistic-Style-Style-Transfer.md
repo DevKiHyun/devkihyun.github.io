@@ -33,19 +33,19 @@ sitemap :
 
 ## Proposed Architecture
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-3e30849e-9a4c-42b8-b0e3-a0e55aa17d89.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfer/Untitled-3e30849e-9a4c-42b8-b0e3-a0e55aa17d89.png" alt="">
 </figure> 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-35087384-c873-485f-9400-6bb4c1cb79d9.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfer/Untitled-35087384-c873-485f-9400-6bb4c1cb79d9.png" alt="">
 </figure>
 
 ## Dataset
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-7dde9b08-11a7-4ddb-a9ce-eab0a386512c.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfer/Untitled-7dde9b08-11a7-4ddb-a9ce-eab0a386512c.png" alt="">
 </figure> 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-4ec4ad2f-662d-4aa5-ab05-406cefedda0c.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfer/Untitled-4ec4ad2f-662d-4aa5-ab05-406cefedda0c.png" alt="">
 </figure>
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-ac270b0f-1b3a-407e-89ba-eeaec1785e79.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfer/Untitled-ac270b0f-1b3a-407e-89ba-eeaec1785e79.png" alt="">
 </figure>
