@@ -1,4 +1,18 @@
-# Paper Review 8 - A Neural Algorithm of Artistic Style [Style Transfer]
+---
+title: "Paper Review 8 - A Neural Algorithm of Artistic Style [Style Transfer]"
+categories:
+  - study
+tags:
+  - deep learning
+  - Style Transfer
+  - Representation
+last_modified_at: 2019-07-28T22:00:00+09:00
+comments: true
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
 
 # [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)
 
@@ -18,15 +32,20 @@
 - Style 이 너무 강한 경우엔 오히려 기괴한? 느낌을 주는 결과를 내보내기도 한다.
 
 ## Proposed Architecture
-
-![](Untitled-3e30849e-9a4c-42b8-b0e3-a0e55aa17d89.png)
-
-![](Untitled-35087384-c873-485f-9400-6bb4c1cb79d9.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-3e30849e-9a4c-42b8-b0e3-a0e55aa17d89.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-35087384-c873-485f-9400-6bb4c1cb79d9.png" alt="">
+</figure>
 
 ## Dataset
-
-![](Untitled-7dde9b08-11a7-4ddb-a9ce-eab0a386512c.png)
-
-![](Untitled-4ec4ad2f-662d-4aa5-ab05-406cefedda0c.png)
-
-![](Untitled-ac270b0f-1b3a-407e-89ba-eeaec1785e79.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-7dde9b08-11a7-4ddb-a9ce-eab0a386512c.png" alt="">
+</figure> 
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-4ec4ad2f-662d-4aa5-ab05-406cefedda0c.png" alt="">
+</figure>
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-28-Paper-Review-8-A-Neural-Algorithm-of-Artistic-Style-Style-Transfe/Untitled-ac270b0f-1b3a-407e-89ba-eeaec1785e79.png" alt="">
+</figure>
