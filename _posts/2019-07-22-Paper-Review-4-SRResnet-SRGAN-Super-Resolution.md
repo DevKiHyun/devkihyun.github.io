@@ -26,18 +26,18 @@ sitemap :
 
 ## Proposed Architecture
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-e3d739d2-e7f7-4e6d-93a2-f33baf8f4622.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-e3d739d2-e7f7-4e6d-93a2-f33baf8f4622.png" alt="">
 </figure> 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-13c852de-b751-44a3-9edb-72a31c097a54.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-13c852de-b751-44a3-9edb-72a31c097a54.png" alt="">
 </figure> 
 
 ## Dataset
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-87dee319-30b5-4fa9-935c-605f5d54b540.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-87dee319-30b5-4fa9-935c-605f5d54b540.png" alt="">
 </figure> 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-09-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-00d7f15d-7a43-43d8-9dbd-12efc0586a88.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2019-07-22-Paper-Review-4-SRResnet-SRGAN-Super-Resolution/Untitled-00d7f15d-7a43-43d8-9dbd-12efc0586a88.png" alt="">
 </figure> 
 
 ## Valuable Relative Works
