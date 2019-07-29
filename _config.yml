@@ -104,7 +104,8 @@ analytics:
 author:
   name             : "KiHyun Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Science and Engineering. Deep Learning Student Researcher in Vision and Signal Processing Lab @ Hankuk University of Foreign Studies(HUFS)"
+  bio              : "Department of Computer Science and Engineering in Hankuk University of Foreign Studies(HUFS). 
+                      Deep Learning Student Researcher in Vision and Signal Processing Lab @ HUFS"
   location         : "S.Korea"
   email            : "devkihyun@naver.com"
   links:
