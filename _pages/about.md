@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+title: "KiHyun Nam"
 excerpt: "About Me"
 search: true
 
