@@ -7,7 +7,7 @@ search: true
 last_modified_at: 2019-07-29T11:53:00+09:00
 ---
 
-<figure class="align-left", style="margin-bottom:30px; margin-top:0px; ">
+<figure class="align-left" style="margin-bottom:30px; margin-top:0px;">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/KiHyun%20Nam.png" alt="" 
        style="margin-bottom: 0px; heigth: 320px; width: 320px;">
 </figure> 
