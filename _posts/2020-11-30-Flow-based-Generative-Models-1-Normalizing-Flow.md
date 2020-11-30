@@ -17,6 +17,9 @@ sitemap :
   priority : 1.0
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 안녕하세요. 굉장히 오랜만에 블로그 포스팅을 재개하게 되었습니다. 한동안 회사랑 학교 생활을 하느라 글을 너무 안 썼습니다. 요즘 Flow based Generative Model 쪽에 굉장히 많은 관심이 생겨서 오랜만의 포스팅은 Flow based Generative model를 공부하고 정리한 시리즈로 구성될 것 같습니다. 참고로 이번 시리즈에서는 다음과 같은 논문들을 기준으로 진행하겠습니다.
 
