@@ -56,8 +56,8 @@ $$⁍$$
 
 행렬 연산으로도 똑같이 표현해 볼 수 있습니다.  (편의상 변수들은 그대로 표기하겠습니다)
 
-$$y = Wx + B = f(x)
-\newline x = W^{-1}(y -B) = f^{-1}(y) $$
+$$y = Wx + B = f(x) \\
+x = W^{-1}(y -B) = f^{-1}(y) $$
 
 이때, $y=Wx+B$ 처럼 벡터 공간 상에서 선형변환(Linear Transformation)  $Wx$과 Bias $B$  가 더해지는 변환을 Affine Transformation 이라 합니다. 즉, Bias 가 *zero* 라면 Affine Transformation은 선형성을 만족하게 되지만 그렇지 않다면 비선형 변환입니다. 
 
