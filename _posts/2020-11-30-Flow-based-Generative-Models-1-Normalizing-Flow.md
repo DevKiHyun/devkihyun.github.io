@@ -138,7 +138,7 @@ $$|M|=  \begin{vmatrix}    M_{11} & M_{12} & \cdots & M_{1n} \\    M_{21} & M_{2
 4. 행렬 $$M$$이 **가역행렬**인 경우**,  $$\det M^{-1}=(\det M)^{-1}$$**
 5. $$\det(M^\mathbf\top)=\det M$$
 
-이렇게 자코비안 행렬과 행렬식을 알아보았고 이제 위에서 전개한 수식 중 $$\Bigl|\text{det}\frac{df^{-1}}{d\mathbf{x}}\Bigl|$$을 해결할 수 있게 되었습니다. 
+이렇게 자코비안 행렬과 행렬식을 알아보았고 이제 위에서 전개한 수식 중 $$|\text{det}\frac{df^{-1}}{d\mathbf{x}}|$$을 해결할 수 있게 되었습니다. 
 
 ## Normalizing Flow
 
