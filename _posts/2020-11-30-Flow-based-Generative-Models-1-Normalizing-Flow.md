@@ -1,4 +1,22 @@
-# Flow based Generative Models 1 : Normalizing Flow
+---
+title: "Flow based Generative Models 1 : Normalizing Flow"
+categories:
+  - study
+tags:
+  - probability
+  - statics
+  - machine learning
+  - deep learning
+  - Generative Model
+  - Normalizing Flow
+last_modified_at: 2020-11-30T14:54:00+09:00
+comments : true
+mathjax: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
 
 안녕하세요. 굉장히 오랜만에 블로그 포스팅을 재개하게 되었습니다. 한동안 회사랑 학교 생활을 하느라 글을 너무 안 썼습니다. 요즘 Flow based Generative Model 쪽에 굉장히 많은 관심이 생겨서 오랜만의 포스팅은 Flow based Generative model를 공부하고 정리한 시리즈로 구성될 것 같습니다. 참고로 이번 시리즈에서는 다음과 같은 논문들을 기준으로 진행하겠습니다.
 
@@ -17,7 +35,9 @@
 - **Variational Auto-Encoder (VAE)** : 일반적인 Auto-encoder는 고차원 데이터 $x$ 를 비교적 저차원인 잠재벡터 $z$로 압축하고(Encoder) 다시  해당 $z$에서 원본 데이터 $x$로 복원하도록(Decoder) 합니다.  따라서 보통의 AE들은 잠재벡터 $z$에 대한 확률 분포를 데이터셋을 압축 및 복원하면서 구하게 됩니다.  VAE는 AE들과는 조금 다릅니다. VAE는 잠재벡터 $z$에 대한 확률 분포를 보다 다루기 쉬운 확률 분포 (e.g. Gaussian distribution)에 근사되도록 하여 (결국, 잠재변수$z$의 확률 분포는 Gaussian 분포 등을 따른다고 '가정'하자는 것이죠),  해당 확률 분포에 따라 만들어진 노이즈를 $z$로 삼아 Decoder가 새로운 데이터 $x$를 만들 수 있도록 하는 것을 목표로 합니다. 결과적으로, VAE가 잘 학습이 되기만 하면, 우리는 언제는 우리가 가정한 확률 분포를 기준으로 평균와 편차 등의 파라미터들을 잘 컨트롤한 값을 전달해주면 Decoder가 그럴 듯한 결과물을 만들어주게 됩니다. 이런 시리즈에선 VAE는 다루지 않기 때문에 궁금하신 분들은 굉장히 잘 정리된 이활석님의 [**오토인코더의 모든 것**](https://www.youtube.com/watch?v=o_peo6U7IRM) 영상을 보고 오시는 것을 추천드립니다.
 - **Flow-based Generative Model** : AE와 VAE 를 비롯한 Encoder-Decoder 구조를 갖고 있는 신경망에선 Encoder와 Decoder는 대부분 암시적으로 학습되어집니다. GAN의 Generator와 Discriminator 도 마찬가지죠. 하지만 Flow-based Generative model은 이 둘과는 약간 다릅니다. 결론부터 말씀드리자면 Flow-based generative model은 잠재 벡터 $z$의 확률 분포에 대한 일련의 역변환(a sequence of invertible transformations)을 통해 데이터 $x$의 분포를 명시적으로 학습하며 이를 간단한게 negative log-likelihood 로 해결합니다.  아마 경험이 있으신 분들은 무엇을 할려는지 바로 알아차리셨겠지만, 그렇지 않으신 분들은 걱정하지 마시기 바랍니다. 이 뒤부터는 이것을 차근차근 설명할 것입니다.
 
-![Flow%20based%20Generative%20Models%201%20Normalizing%20Flow%20644590ebb66d411fbb258bfeb3052081/Untitled.png](Flow%20based%20Generative%20Models%201%20Normalizing%20Flow%20644590ebb66d411fbb258bfeb3052081/Untitled.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_1.png.png" alt="">
+</figure> 
 
 ***Fig. 1. Comparison of three categories of generative models.*** ([출처 - Lil'Log, Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html))
 
@@ -127,7 +147,9 @@ $$|M|=  \begin{vmatrix}    M_{11} & M_{12} & \cdots & M_{1n} \\    M_{21} & M_{2
 
 이번 절에서 알아볼 **Normalizing Flow (NF)** 은 실제 데이터의 복잡한 확률 분포를 예측하는데 있어서 효과적인 방식 중 하나입니다. 아이디어는 단순합니다. 우리는 앞서 어떠한 확률 분포에 **역변환 함수**를 적용해서 새로운 확률 분포로 변환 할 수 있는 것을 확인했습니다. **Normalizing Flow**  는 단순한 확률 분포에서부터 일련의 역변환 함수를 적용하여 점차 복잡한 확률 분포로 변환해 나갑니다. 이런 일련의 변환과 변수 변환 이론을 통해 우리는 단순한 분포로부터 새로운 변수들을 반복해서 대체하고 결과적으로 목표하는 최종 변수의 확률 분포를 얻을 수 있게 됩니다. 
 
-![Flow%20based%20Generative%20Models%201%20Normalizing%20Flow%20644590ebb66d411fbb258bfeb3052081/Untitled%201.png](Flow%20based%20Generative%20Models%201%20Normalizing%20Flow%20644590ebb66d411fbb258bfeb3052081/Untitled%201.png)
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_2.png.png" alt="">
+</figure> 
 
 Fig. 2. Illustration of a normalizing flow model, transforming a simple distribution $p_0(\mathbf{z}_0)$ to a complex one $p_K(\mathbf{z}_K)$ step by step. ([출처 - Lil'Log, Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html))
 
