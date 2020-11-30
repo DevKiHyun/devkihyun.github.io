@@ -198,7 +198,7 @@ $$\begin{aligned}
 &= \log \pi_0(\mathbf{z}_0) - \sum_{i=1}^K \log\left\vert\det\dfrac{d f_i}{d\mathbf{z}_{i-1}}\right\vert
 \end{aligned}$$
 
-딥러닝 모델이 학습할 수 있게 해주려면 우리는 항상 적절한 학습 criterion을 제공해야됩니다. 분류 학습에는 주로 Cross-Entropy 가 사용되는 것처럼요. 다행인 것은 우리가 NF 를 이용해 비교적 쉽게 $$\log{p(\mathbf{x})}$$ 를 정의할 수 있었습니다. 그럼 남은 것은 우리가 가지고 있는 학습 데이터셋 \mathcal{D} 에 대해 간단하게 Negative Log-Likelihood (NLL) 을 만들어서 생성 모델에게 학습 criterion 으로 넘겨주면 끝납니다.
+딥러닝 모델이 학습할 수 있게 해주려면 우리는 항상 적절한 학습 criterion을 제공해야됩니다. 분류 학습에는 주로 Cross-Entropy 가 사용되는 것처럼요. 다행인 것은 우리가 NF 를 이용해 비교적 쉽게 $$\log{p(\mathbf{x})}$$ 를 정의할 수 있었습니다. 그럼 남은 것은 우리가 가지고 있는 학습 데이터셋 $$\mathcal{D}$$ 에 대해 간단하게 Negative Log-Likelihood (NLL) 을 만들어서 생성 모델에게 학습 criterion 으로 넘겨주면 끝납니다.
 
 $$\mathcal{L}(\mathcal{D}) = - \frac{1}{\vert\mathcal{D}\vert}\sum_{\mathbf{x} \in \mathcal{D}} \log p(\mathbf{x})$$
 
