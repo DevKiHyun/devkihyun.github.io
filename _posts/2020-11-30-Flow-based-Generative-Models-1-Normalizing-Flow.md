@@ -101,7 +101,7 @@ $$\int p(x)dx = \int \pi(f^{-1}(x))d f^{-1}(x)$$
 
 $$p(x) = \pi (z)\Bigl|\frac{dz}{dx}\Bigl| = \pi(f^{-1}(x))\Bigl|\frac{df^{-1}}{dx}\Bigl| = \pi(f^{-1}(x))\Bigl|(f^{-1})'(x)\Bigl|$$
 
-이렇게 하면, 드디어 우리는 알지 못하는 $$p(x)$$ 를 $$z$$ 의 확률밀도함수로 표현 할 수 있게 되었습니다. 이 식을 조금 직관적으로 설명하자면 서로 다른 변수 $$x, z$$ 의 밀도 함수들 간의 관계는 $$|(f^{-1})'(x)|$$ 만큼의 비율을 갖는다고 볼 수 있습니다. 사실, 우리들은 실제로는 고차원의 변수들을 다루기 때문에 위의 식을 **다변수**(Multi-variable) 관점으로 다시 표현해줄 필요가 있습니다. 즉, 행렬로 표현하고자 합니다.
+이렇게 하면, 드디어 우리는 알지 못하는 $$p(x)$$ 를 $$z$$ 의 확률밀도함수로 표현 할 수 있게 되었습니다. 이 식을 조금 직관적으로 설명하자면 서로 다른 변수 $$x, z$$ 의 밀도 함수들 간의 관계는 $$\vert(f^{-1})'(x)\vert$$ 만큼의 비율을 갖는다고 볼 수 있습니다. 사실, 우리들은 실제로는 고차원의 변수들을 다루기 때문에 위의 식을 **다변수**(Multi-variable) 관점으로 다시 표현해줄 필요가 있습니다. 즉, 행렬로 표현하고자 합니다.
 
 $$\mathbf{z} \sim \pi(\mathbf{z}), \mathbf{x} = f(\mathbf{z}), \mathbf{z} = f^{-1}(\mathbf{x})\\
 p(\mathbf{x})=\pi(\mathbf{z})\Bigl|\text{det}\frac{d\mathbf{z}}{d\mathbf{x}}\Bigl| = \pi(f^{-1}(\mathbf{x}))\Bigl|\text{det}\frac{df^{-1}}{d\mathbf{x}}\Bigl|$$
@@ -132,13 +132,13 @@ $$|M|=  \begin{vmatrix}    M_{11} & M_{12} & \cdots & M_{1n} \\    M_{21} & M_{2
 
 이번엔 행렬식의 주요 성질을 적어보도록 하겠습니다. 향후에 연산과정을 간단하게 해주는데 많은 도움을 주니 참고하시면 좋을 것 같습니다. 
 
-- <div align="left"> $$\det(1_{n\times n})=1$$ </div>
-- <div align="left"> $$\det(MN)=\det M\det N$$ </div>
-- <div align="left"> 행렬 $$M$$이 **가역행렬(invertible matrix, 역행렬이 있는 행렬)**인 경우**,  $$\text{det}M \neq 0$$** </div>
-- <div align="left"> 행렬 $$M$$이 **가역행렬**인 경우**,  $$\det M^{-1}=(\det M)^{-1}$$** </div>
-- <div align="left"> $$\det(M^\mathbf\top)=\det M$$ </div>
+<div align="left"> -  $$\det(1_{n\times n})=1$$ </div>
+<div align="left"> - $$\det(MN)=\det M\det N$$ </div>
+<div align="left"> - 행렬 $$M$$이 **가역행렬(invertible matrix, 역행렬이 있는 행렬)**인 경우**,  $$\text{det}M \neq 0$$** </div>
+<div align="left"> - 행렬 $$M$$이 **가역행렬**인 경우**,  $$\det M^{-1}=(\det M)^{-1}$$** </div>
+<div align="left"> - $$\det(M^\mathbf\top)=\det M$$ </div>
 
-이렇게 자코비안 행렬과 행렬식을 알아보았고 이를 이용하면 아까 우리가 정리한 수식에서 자코비안 행렬식을 어떻게 다루면 되는지 감이 오실 겁니다. 
+이렇게 자코비안 행렬과 행렬식을 알아보았고 이제 위에서 전개한 수식 중 $$\vert\text{det}\frac{df^{-1}}{d\mathbf{x}}\vert$$을 해결할 수 있게 되었습니다. 
 
 ## Normalizing Flow
 
