@@ -36,7 +36,7 @@ sitemap :
 - **Flow-based Generative Model** : AE와 VAE 를 비롯한 Encoder-Decoder 구조를 갖고 있는 신경망에선 Encoder와 Decoder는 대부분 암시적으로 학습되어집니다. GAN의 Generator와 Discriminator 도 마찬가지죠. 하지만 Flow-based Generative model은 이 둘과는 약간 다릅니다. 결론부터 말씀드리자면 Flow-based generative model은 잠재 벡터 $z$의 확률 분포에 대한 일련의 역변환(a sequence of invertible transformations)을 통해 데이터 $x$의 분포를 명시적으로 학습하며 이를 간단한게 negative log-likelihood 로 해결합니다.  아마 경험이 있으신 분들은 무엇을 할려는지 바로 알아차리셨겠지만, 그렇지 않으신 분들은 걱정하지 마시기 바랍니다. 이 뒤부터는 이것을 차근차근 설명할 것입니다.
 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_1.png.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_1.png" alt="">
 </figure> 
 
 ***Fig. 1. Comparison of three categories of generative models.*** ([출처 - Lil'Log, Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html))
@@ -148,7 +148,7 @@ $$|M|=  \begin{vmatrix}    M_{11} & M_{12} & \cdots & M_{1n} \\    M_{21} & M_{2
 이번 절에서 알아볼 **Normalizing Flow (NF)** 은 실제 데이터의 복잡한 확률 분포를 예측하는데 있어서 효과적인 방식 중 하나입니다. 아이디어는 단순합니다. 우리는 앞서 어떠한 확률 분포에 **역변환 함수**를 적용해서 새로운 확률 분포로 변환 할 수 있는 것을 확인했습니다. **Normalizing Flow**  는 단순한 확률 분포에서부터 일련의 역변환 함수를 적용하여 점차 복잡한 확률 분포로 변환해 나갑니다. 이런 일련의 변환과 변수 변환 이론을 통해 우리는 단순한 분포로부터 새로운 변수들을 반복해서 대체하고 결과적으로 목표하는 최종 변수의 확률 분포를 얻을 수 있게 됩니다. 
 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_2.png.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/post_images/2020-11-30-Flow-based-Generative-Models-1-Normalizing-Flow/Figure_2.png" alt="">
 </figure> 
 
 Fig. 2. Illustration of a normalizing flow model, transforming a simple distribution $p_0(\mathbf{z}_0)$ to a complex one $p_K(\mathbf{z}_K)$ step by step. ([출처 - Lil'Log, Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html))
