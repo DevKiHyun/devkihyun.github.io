@@ -46,6 +46,7 @@ I am interested in speech models, generative models and representation learning.
 - Interspeech 2020 Travel Grant
 
 ### Presentation
+- [10/26/2020] Presentation ClovaCall paper in Interspeech 2020
 - [07/04/2019] [Techtalk](https://docs.google.com/presentation/d/18a4EyWXfyHsm9lhMPY1G-dZ9k5AC8s_yaK25Sa2xyj0/edit) at Deep Learning Conference All Together(DLCAT)-2nd. (in Daejeon, S.Korea)
 - [03/10/2019] Techtalk at Korea Electronics Technology Institute. (in Seongnam, S.Korea)
 - [09/19/2018] [Techtalk](https://www.youtube.com/watch?v=nvsYKSHw0jo) at Naver TechTalk. (in Seongnam, S.Korea)
