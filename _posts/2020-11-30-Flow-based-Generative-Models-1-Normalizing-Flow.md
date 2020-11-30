@@ -57,7 +57,7 @@ $$x = (y - b) / a = f^{-1}(y)$$
 $$y = Wx + B = f(x) \\
 x = W^{-1}(y -B) = f^{-1}(y) $$
 
-이때, $$y=Wx+B$$ 처럼 벡터 공간 상에서 선형변환(Linear Transformation)  $$Wx$$과 Bias $$B$$  가 더해지는 변환을 Affine Transformation 이라 합니다. 즉, Bias 가 *zero* 라면 Affine Transformation은 선형성을 만족하게 되지만 그렇지 않다면 비선형 변환입니다. 
+이때, $$y=Wx+B$$ 처럼 벡터 공간 상에서 선형변환(Linear Transformation)  $$Wx$$과 Bias $$B$$  가 더해지는 변환을 Affine Transformation 이라 합니다. 즉, Bias 가 *zero* 라면 Affine Transformation은 선형성을 만족하게 되지만 그렇지 않다면 비선형 변환입니다. 참고로, 제가 행렬 연산을 예를 들면서 역행렬을 사용했는데 행렬의 경우엔 특정 조건을 만족해야 역행렬을 사용할 수 있습니다. 예시를 위해서 사용했다는 것만 알아두시면 좋을 것 같습니다.  
 
 고차원 변수 $$x$$ 에 대한 잠재 변수 $$z$$ 를 계산하는 신경망이나 반대로 $$z$$ 에서 $$x$$ 를 계산하는 신경망도 하나의 함수입니다.
 
@@ -197,6 +197,10 @@ $$\begin{aligned}
 &= \dots \\
 &= \log \pi_0(\mathbf{z}_0) - \sum_{i=1}^K \log\left\vert\det\dfrac{d f_i}{d\mathbf{z}_{i-1}}\right\vert
 \end{aligned}$$
+
+딥러닝 모델이 학습할 수 있게 해주려면 우리는 항상 적절한 학습 criterion을 제공해야됩니다. 분류 학습에는 주로 Cross-Entropy 가 사용되는 것처럼요. 다행인 것은 우리가 NF 를 이용해 비교적 쉽게 $$\log{p(\mathbf{x})}$$ 를 정의할 수 있었습니다. 그럼 남은 것은 우리가 가지고 있는 학습 데이터셋 \mathcal{D} 에 대해 간단하게 Negative Log-Likelihood (NLL) 을 만들어서 생성 모델에게 학습 criterion 으로 넘겨주면 끝납니다.
+
+$$\mathcal{L}(\mathcal{D}) = - \frac{1}{\vert\mathcal{D}\vert}\sum_{\mathbf{x} \in \mathcal{D}} \log p(\mathbf{x})$$
 
 이것이 바로 Normalizing Flow 방식입니다. 간단하죠? 그 대신, 해당 방정식의 계산이 가능하게 하려면 두 가지 조건을 충족해야됩니다.
 
