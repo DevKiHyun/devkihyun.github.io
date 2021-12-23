@@ -21,7 +21,7 @@ Hankuk University of Foreign Studies (HUFS)
 
 [devkihyun@naver.com](mailto:devkihyun@naver.com)
 
-[[CV](https://github.com/DevKiHyun/devkihyun.github.io/raw/master/assets/docs/KiHyun_CV_201130.pdf)][[GitHub](https://github.com/devkihyun)][[Facebook](https://www.facebook.com/profile.php?id=100004485828793)][[Google Scholar](https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&oi=sra)]
+[[CV](https://github.com/DevKiHyun/devkihyun.github.io/raw/master/assets/docs/KiHyun_CV_201130.pdf)][[GitHub](https://github.com/devkihyun)][[Google Scholar](https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&oi=sra)]
 
 ---
 
