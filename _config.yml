@@ -11,15 +11,15 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "DevKiHyun's Deep Learning"
+title                    : "DevKiHyun's AI"
 title_separator          : "-"
 name                     : "KiHyun Nam"
-description              : "Deep Learning Blog"
+description              : "My public website for AI"
 url                      : "https://devkihyun.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,13 +104,13 @@ analytics:
 author:
   name             : "KiHyun Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Deep Learning Student Researcher in Vision and Signal Processing Lab @ Hankuk University of Foreign Studies (HUFS)"
+  bio              : "AI Researcher / Ph.D student, Multimodal AI LAB, Korea Advanced Institute of Science and Technology (KAIST), South Korea"
   location         : "S.Korea"
-  email            : "devkihyun@naver.com"
+  email            : "devkihyun@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:devkihyun@naver.com"
+      url: "mailto:devkihyun@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://devkihyun.github.io/"
@@ -132,7 +132,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100004485828793"
+      # url: "https://www.facebook.com/profile.php?id=100004485828793"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DevKiHyun"
