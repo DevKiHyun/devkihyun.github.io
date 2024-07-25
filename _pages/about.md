@@ -27,7 +27,7 @@ Korea Advanced Institute of Science and Technology (KAIST), South Korea
 
 [devkihyun@gmail.com](mailto:devkihyun@gmail.com)
 
-[[CV](https://github.com/DevKiHyun/devkihyun.github.io/raw/master/assets/docs/KiHyun_CV_201130.pdf)][[GitHub](https://github.com/devkihyun)][[Google Scholar](https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&oi=sra)]
+[[CV](https://github.com/DevKiHyun/devkihyun.github.io/raw/master/assets/docs/KiHyun_CV.pdf)][[GitHub](https://github.com/devkihyun)][[Google Scholar](https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&oi=sra)]
 
 ## Personal History
 [09/01/2024 ~] Ph.D. course in Korea Advanced Institute of Science and Technology (KAIST) (Electrical Engineering)
