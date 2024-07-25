@@ -44,15 +44,15 @@ Korea Advanced Institute of Science and Technology (KAIST), South Korea
 
 ## Publication
 
-- Nam, K., Heo, H. S., Jung, J. W., & Chung, J. S. (2024). Disentangled Representation Learning for Environment-agnostic Speaker Recognition. arXiv preprint arXiv:2406.14559 (INTERSPEECH2024)
+- **Nam, K.**, Heo, H. S., Jung, J. W., & Chung, J. S. (2024). Disentangled Representation Learning for Environment-agnostic Speaker Recognition. arXiv preprint arXiv:2406.14559 (INTERSPEECH2024)
 
-- Heo, H. S., Nam, K., Lee, B. J., Kwon, Y., Lee, M., Kim, Y. J., & Chung, J. S. (2024, April). Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12321-12325). IEEE
+- Heo, H. S., **Nam, K.**, Lee, B. J., Kwon, Y., Lee, M., Kim, Y. J., & Chung, J. S. (2024, April). Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12321-12325). IEEE
 
-- Jung, C., Lee, S., Nam, K., Rho, K., Kim, Y. J., Jang, Y., & Chung, J. S. (2024, April). TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 8391-8395). IEEE
+- Jung, C., Lee, S., **Nam, K.**, Rho, K., Kim, Y. J., Jang, Y., & Chung, J. S. (2024, April). TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 8391-8395). IEEE
 
-- Kwak, D., Jung, J., Nam, K., Jang, Y., Jung, J. W., Watanabe, S., & Chung, J. S. (2024, April). VoxMM: Rich Transcription of Conversations in the Wild. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12551-12555). IEEE
+- Kwak, D., Jung, J., **Nam, K.**, Jang, Y., Jung, J. W., Watanabe, S., & Chung, J. S. (2024, April). VoxMM: Rich Transcription of Conversations in the Wild. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12551-12555). IEEE
 
-- *Nam, K., *Kim, Y., Huh, J., Heo, H.-S., Jung, J.-w., Chung, J.S. (2023) Disentangled Representation Learning for Multilingual Speaker Recognition. Proc. INTERSPEECH 2023, 5316-5320, doi: 10.21437/Interspeech.2023-1603
+- ***Nam, K.**, *Kim, Y., Huh, J., Heo, H.-S., Jung, J.-w., Chung, J.S. (2023) Disentangled Representation Learning for Multilingual Speaker Recognition. Proc. INTERSPEECH 2023, 5316-5320, doi: 10.21437/Interspeech.2023-1603
 
 - *Nam, Ki Hyun, *Young Jong Song, and Il Dong Yun. "Sss-ae: Anomaly detection using self-attention based sequence-to-sequence auto-encoder in smd assembly machine sound." IEEE Access 9 (2021): 131191-131202.
 
