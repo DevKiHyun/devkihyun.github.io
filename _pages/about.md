@@ -18,7 +18,7 @@ AI Researcher
 
 Ph.D. Student
 
-Multimodla AI Lab
+Multimodal AI Lab
 
 Advisor : Prof. Joon Son Chung
 
