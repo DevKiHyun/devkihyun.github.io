@@ -30,7 +30,7 @@ Korea Advanced Institute of Science and Technology (KAIST), South Korea
 [[CV](https://github.com/DevKiHyun/devkihyun.github.io/raw/master/assets/docs/KiHyun_CV_201130.pdf)][[GitHub](https://github.com/devkihyun)][[Google Scholar](https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&oi=sra)]
 
 ## Personal History
-[09/01/2024 ~] Ph.d. course in Korea Advanced Institute of Science and Technology (KAIST) (Electrical Engineering)
+[09/01/2024 ~] Ph.D. course in Korea Advanced Institute of Science and Technology (KAIST) (Electrical Engineering)
 
 [09/01/2022 ~ 08/31/2024] M.S. in Korea Advanced Institute of Science and Technology (KAIST) (Electrical Engineering)
 
