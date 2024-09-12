@@ -44,16 +44,16 @@ Korea Advanced Institute of Science and Technology (KAIST), South Korea
 
 ## Publication
 
-- **Nam, K.**, Heo, H. S., Jung, J. W., & Chung, J. S. (2024). Disentangled Representation Learning for Environment-agnostic Speaker Recognition. arXiv preprint arXiv:2406.14559 (INTERSPEECH2024)
+- **Kihyun Nam**, Heo, H. S., Jung, J. W., and Chung, J. S., "Disentangled Representation Learning for Environment-agnostic Speaker Recognition", INTERSPEECH, 2024
 
-- Heo, H. S., **Nam, K.**, Lee, B. J., Kwon, Y., Lee, M., Kim, Y. J., & Chung, J. S. (2024, April). Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12321-12325). IEEE
+- Heo, H. S., **Kihyun Nam**, Lee, B. J., Kwon, Y., Lee, M., Kim, Y. J., and Chung, J. S., "Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification", ICASSP, 2024
 
-- Jung, C., Lee, S., **Nam, K.**, Rho, K., Kim, Y. J., Jang, Y., & Chung, J. S. (2024, April). TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 8391-8395). IEEE
+- Jung, C., Lee, S., **Kihyun Nam**, Rho, K., Kim, Y. J., Jang, Y., and Chung, J. S., "TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning", ICASSP 2024
 
-- Kwak, D., Jung, J., **Nam, K.**, Jang, Y., Jung, J. W., Watanabe, S., & Chung, J. S. (2024, April). VoxMM: Rich Transcription of Conversations in the Wild. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 12551-12555). IEEE
+- Kwak, D., Jung, J., **Kihyun Nam**, Jang, Y., Jung, J. W., Watanabe, S., & Chung, J. S., "VoxMM: Rich Transcription of Conversations in the Wild", ICASSP, 2024
 
-- ***Nam, K.**, *Kim, Y., Huh, J., Heo, H.-S., Jung, J.-w., Chung, J.S. (2023) Disentangled Representation Learning for Multilingual Speaker Recognition. Proc. INTERSPEECH 2023, 5316-5320, doi: 10.21437/Interspeech.2023-1603
+- ***Kihyun Nam**, *Kim, Y., Huh, J., Heo, H.-S., Jung, J.-w., Chung, J.S., "Disentangled Representation Learning for Multilingual Speaker Recognition", INTERSPEECH, 2023
 
-- *Nam, Ki Hyun, *Young Jong Song, and Il Dong Yun. "Sss-ae: Anomaly detection using self-attention based sequence-to-sequence auto-encoder in smd assembly machine sound." IEEE Access 9 (2021): 131191-131202.
+- ***Kihyun Nam**, *Young Jong Song, and Il Dong Yun, "Sss-ae: Anomaly detection using self-attention based sequence-to-sequence auto-encoder in smd assembly machine sound", IEEE Access, 2021
 
-- *Ha, J., ***Nam, K.**, Kang, J., Lee, S., Yang, S., Jung, H., Kim, H., Kim, E., Kim, S., Kim, H.A., Doh, K., Lee, C.K., Sung, N., Kim, S. (2020) ClovaCall: Korean Goal-Oriented Dialog Speech Corpus for Automatic Speech Recognition of Contact Centers. Proc. Interspeech 2020, 409-413.[[paper](https://arxiv.org/abs/2004.09367)/[github](https://github.com/clovaai/ClovaCall)]
+- *Ha, J., ***Kihyun Nam**, Kang, J., Lee, S., Yang, S., Jung, H., Kim, H., Kim, E., Kim, S., Kim, H.A., Doh, K., Lee, C.K., Sung, N., Kim, S., "ClovaCall: Korean Goal-Oriented Dialog Speech Corpus for Automatic Speech Recognition of Contact Centers", INTERSPEECH, 2022, [[paper](https://arxiv.org/abs/2004.09367)/[github](https://github.com/clovaai/ClovaCall)]
