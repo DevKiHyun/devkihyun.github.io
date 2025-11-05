@@ -1,0 +1,169 @@
+a.author-bold-underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+.resume .resume-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #45505b;
+}
+.resume .resume-item {
+  padding: 0 0 10px 20px;
+  margin-top: -10px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 14px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0pt;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Styles
+--------------------------------------------------------------*/
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode a.author,
+body.dark-mode a.author:link,
+body.dark-mode a.author:visited {
+  color: #bb86fc !important;
+}
+body.dark-mode a.author:hover {
+  color: #ddaaff !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .navbar .nav-link,
+body.dark-mode .navbar-brand {
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+}
+
+body.dark-mode .card .card-header {
+  background-color: #292929 !important;
+  color: #e0e0e0 !important;
+  border-bottom: 1px solid #444 !important;
+}
+
+body.dark-mode .btn-outline-primary {
+  color: #bb86fc !important;
+  border-color: #bb86fc !important;
+}
+
+body.dark-mode .btn-outline-primary:hover {
+  background-color: #bb86fc !important;
+  color: #121212 !important;
+}
+
+body.dark-mode hr {
+  border-color: #444 !important;
+}
+
+body.dark-mode .btn-outline-dark {
+  color: #ddd !important;           /* 글씨를 밝은 회색으로 */
+  border-color: #ddd !important;    /* 테두리도 밝은 회색 */
+}
+
+body.dark-mode .btn-outline-dark:hover {
+  background-color: #ddd !important; /* 호버 시 배경도 밝게 */
+  color: #121212 !important;          /* 글씨는 어두운색으로 대비 */
+}
+
+/* Dark mode for resume section */
+body.dark-mode .resume .resume-title {
+  color: #ffffff; /* 제목 글씨 흰색 */
+}
+
+body.dark-mode .resume .resume-item h4 {
+  color: #80bfff; /* 연한 파란색 */
+}
+
+body.dark-mode .resume .resume-item h5 {
+  background: #2a2a2a;     /* 어두운 배경 */
+  color: #cccccc;          /* 연한 글씨 */
+  border-radius: 4px;
+}
+
+
+/* Optional: 모든 텍스트 강제 적용 (필요시) */
+/* 
+body.dark-mode * {
+  color: #e0e0e0 !important;
+}
+*/
+
+.pub-thumbnail-placeholder {
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 비율 유지 */
+    background-color: transparent;
+    border: 2px dashed #ccc;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.pub-thumbnail-image {
+    width: 100%;          /* 부모 div 너비 100% */
+    max-width: 320px;     /* 최대 너비 제한 */
+    aspect-ratio: 16 / 9; /* 16:9 비율 유지 */
+    border: 2px dashed #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;     /* 이미지가 넘치면 숨김 */
+}
+
+.pub-thumbnail-image img {
+    width: 100%;   /* 부모 너비에 맞춤 */
+    height: auto;  /* 비율 유지 */
+    display: block; /* 아래 여백 제거 */
+    object-fit: contain; /* 이미지 비율 유지하며 박스 내에 맞춤 */
+}

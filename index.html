@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">    
+    <title>KiHyun Nam</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
+<style>
+a.author:link { color: #000000; }
+a.author:visited { color: #000000; } 
+a.author:hover { color: #666666; } 
+a.author:active { color: #BBBBBB; } 
+a.author {
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand">KiHyun Nam</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <!-- 네비 메뉴들 -->
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li> 
+            <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pubs">Publications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <!-- 오른쪽 끝에 다크모드 토글 버튼 -->
+        <button id="darkModeToggle" class="btn btn-outline-light btn-sm ms-auto">Dark Mode</button>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Page Content -->
+    <br>
+    <!-- Page Content -->
+     <!-- ======= Intro Section ======= -->
+    <section id="home">
+        <div class="container" style="padding-top: 4em;">
+            <div class="row">
+                <div class="col-sm-2"><img alt="Member image" class="img-responsive center-block d-block mx-auto" src="./assets/profile/profile.png" style="width:100%; max-width:200pt; margin-bottom:5pt; border-radius: 50%;"></div>
+                <div class="col-lg-10" style=";">
+                    <div style="margin-top:10pt; text-align:justify;">
+                        <div style="font-size: 20px">
+                            <b>KiHyun Nam</b>
+                        </div>
+                        <div style="font-size: 20px; margin-bottom:5pt">
+                            남기현
+                        </div>
+                        <div style="font-size: 14px; margin-bottom:5pt">
+                            Ph.D. Candidate <br>
+                            School of Electrical Engineering, KAIST
+                        </div>
+                        <div style="font-size: 14px; margin-bottom:5pt">
+                            <a class="btn btn-outline-dark btn-sm" href="assets/cv/[CV]KiHyun_Nam.pdf" target="_blank" download>CV</a>
+                            <a class="btn btn-outline-dark btn-sm" href="https://scholar.google.com/citations?user=aSWMxhYAAAAJ&hl=en&authuser=1">Google Scholar</a> 
+                            <a class="btn btn-outline-dark btn-sm" href="https://github.com/DevKiHyun">GitHub</a>
+                            <a class="btn btn-outline-dark btn-sm" href="https://www.linkedin.com/in/kihyun-nam-9314b5304/">LinkedIn</a>
+                            <a class="btn btn-outline-dark btn-sm" href="mailto:nam@mmai.io">Mail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Resume Section ======= -->
+    <section class="resume" id="aboutme">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr>
+
+                    <h2>About me</h2>
+
+                    <p>
+                        I am a second-year Ph.D. student at KAIST advised by 
+                        Professor <a href="http://mm.kaist.ac.kr/joon/" target="_blank">Joon Son Chung</a>., and I earned my M.S. from KAIST. 
+                        My research builds <b>plug-and-play pathways to add new modality channels—currently audio—to pretrained LLMs</b> by 
+                        <b>bridging the modality gap at the representation level</b>. 
+                        I am exploring <b>diffusion-based representation transport</b> toward an omni-space to reduce reliance on 
+                        <b>expensive paired multimodal datasets</b>, with strong interest in <b>audio LLMs</b> and 
+                        <b>duplex speech-to-speech</b>. 
+                        Previously, I worked on robust “in-the-wild” speech (bilingual/environmental mismatch), 
+                        large-scale call-center ASR, and disentangled representation learning.
+                      </p>
+                    <h3 class="resume-title">Experience</h3>
+                    <div class="resume-item">
+                        <h4>Deep Learning Research Intern, NAVER Clova Speech, S. Korea</h4>
+                        <h5>Sep. 2019 - Feb. 2020</h5>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Deep Learning Research Intern, NAVER Clova Speech, S. Korea</h4>
+                        <h5>Mar. 2021 - Sep. 2021</h5>
+                    </div>
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Ph.D. in School of Electrical Engineering, KAIST</h4>
+                        <h5>Sept. 2024 - Present</h5>
+                        <p>Advisor: Joon Son Chung (Multimodal AI Lab)</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>M.S. in School of Electrical Engineering, KAIST</h4>
+                        <h5>Aug. 2022 - Aug. 2024</h5>
+                        <p>Advisor: Joon Son Chung (Multimodal AI Lab)</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>B.S. in Computer Science, Hankuk University of Foreign Studies (HUFS)</h4>
+                        <h5>Mar. 2015 - Aug. 2022</h5>
+                        <p>GPA: 4.1/4.5</p>
+                    </div>
+
+                    <h3 class="resume-title">Selected Awards</h3>
+
+                    <div class="resume-item">
+                        <h5>2024</h5>
+                        <ul>
+                            <li>NIST 2024 Speaker Recognition Evaluation – 1st Place (Audio Track) / 4th Place (Audio‑Visual Track) – Collaboration with Microsoft, KAIST MMAI Lab, PolyU, NUS and UEF</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Pubs Section ======= -->
+    <section class="resume" id="pubs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style=";">
+                    <hr>
+                    <h2>Publications</h2>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">2026</h4>
+                        </div>
+
+                        <!-- Publication Item -->
+                        <div class="card-body  border-bottom">
+                            <div class="row align-items-center">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/8_diffusionlink.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>Diffusion‑Link: Diffusion Probabilistic Model for Bridging the Audio‑Text Modality Gap</b><br>
+                                    KiHyun Nam<sup>*</sup>, J. M. Choi<sup>*</sup>, H. K. Lee, J. W. Heo, and J. S. Chung<br>
+                                    preprint, submitted at ICASSP 2026.
+                                    <a href="https://arxiv.org/abs/2510.11330" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">2025</h4>
+                        </div>
+                        <!-- Publication Item -->
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/7_seed.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>SEED: Speaker Embedding Enhancement Diffusion Model</b><br>
+                                    KiHyun Nam, J. W. Heo, J. W. Jung, G. Park, C. Jung, H. J. Yu, and J. S. Chung<br>
+                                    INTERSPEECH, 2025.
+                                    <a href="https://www.isca-archive.org/interspeech_2025/nam25b_interspeech.html" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                    <a href="https://github.com/kaistmm/seed-pytorch" class="btn btn-outline-primary btn-sm mt-2">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">2024</h4>
+                        </div>
+
+                        <!-- Publication Item -->
+                        <div class="card-body border-bottom">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/6_drlenv.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>Disentangled Representation Learning for Environment‑agnostic Speaker Recognition</b><br>
+                                    KiHyun Nam, H. S. Heo, J. W. Jung, and J. S. Chung<br>
+                                    INTERSPEECH, 2024.
+                                    <a href="https://www.isca-archive.org/interspeech_2024/nam24b_interspeech.html" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                    <a href="https://mm.kaist.ac.kr/projects/voxceleb-disentangler/" class="btn btn-outline-primary btn-sm mt-2">Project Page</a>
+                                    <a href="https://github.com/kaistmm/voxceleb-disentangler" class="btn btn-outline-primary btn-sm mt-2">Code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body border-bottom">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/5_rethink.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification</b><br>
+                                    H. S. Heo, KiHyun Nam, B. J. Lee, Y. Kwon, M. Lee, Y. J. Kim, and J. S. Chung<br>
+                                    ICASSP, 2024.
+                                    <a href="https://ieeexplore.ieee.org/document/10445987" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body border-bottom">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/4_talknce.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>TalkNCE: Improving Active Speaker Detection with Talk‑Aware Contrastive Learning</b><br>
+                                    C. Jung<sup>*</sup>, S. Lee<sup>*</sup>, KiHyun Nam, K. Rho, Y. J. Kim, Y. Jang, and J. S. Chung<br>
+                                    ICASSP, 2024.
+                                    <a href="https://ieeexplore.ieee.org/document/10448124" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body border-bottom">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/3_voxmm.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>VoxMM: Rich Transcription of Conversations in the Wild</b><br>
+                                    D. Kwak<sup>*</sup>, J. Jung<sup>*</sup>, KiHyun Nam, Y. Jang, J. W. Jung, S. Watanabe, and J. S. Chung<br>
+                                    ICASSP, 2024.
+                                    <a href="https://ieeexplore.ieee.org/document/10446300" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                    <a href="https://mm.kaist.ac.kr/projects/voxmm/" class="btn btn-outline-primary btn-sm mt-2">Dataset</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">2023</h4>
+                        </div>
+
+                        <div class="card-body border-bottom">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/2_vox1b.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>Disentangled Representation Learning for Multilingual Speaker Recognition</b><br>
+                                    KiHyun Nam<sup>*</sup>, Y. Kim<sup>*</sup>, J. Huh, H. S. Heo, J. W. Jung, and J. S. Chung<br>
+                                    INTERSPEECH, 2023.
+                                    <a href="https://www.isca-archive.org/interspeech_2023/nam23_interspeech.html" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                    <a href="https://mm.kaist.ac.kr/projects/voxceleb1-b/" class="btn btn-outline-primary btn-sm mt-2">Project Page</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h4 class="card-title mb-0">2020</h4>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Placeholder for thumbnail -->
+                                <div class="col-md-3 mb-2">
+                                    <div class="pub-thumbnail-image">
+                                        <img src="./assets/thumbs/1_clovacall.png" alt="Thumbnail">
+                                    </div>
+                                </div>
+
+                                <!-- Paper info -->
+                                <div class="col-md-9">
+                                    <b>ClovaCall: Korean Goal‑Oriented Dialog Speech Corpus for Automatic Speech Recognition of Contact Centers</b><br>
+                                    J. Ha<sup>*</sup>, KiHyun Nam<sup>*</sup>, J. Kang, S. Lee, S. Yang, H. Jung, H. Kim, E. Kim, S. Kim, H. A. Kim, K. Doh, C. K. Lee, N. Sung, S. Kim<br>
+                                    INTERSPEECH, 2020.
+                                    <a href="https://www.isca-archive.org/interspeech_2020/ha20_interspeech.html" class="btn btn-outline-primary btn-sm mt-2">Paper</a>
+                                    <a href="https://github.com/ClovaAI/ClovaCall" class="btn btn-outline-primary btn-sm mt-2">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section class="resume" id="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2>Contact</h2>
+                    <div class="text-left" style="font-size: 14px; margin-bottom:2pt">
+                        <i class="bi bi-envelope"></i> &ensp; nkh.mmai (at) kaist.ac.kr
+                    </div>
+                    <div class="text-left" style="font-size: 14px; margin-bottom:2pt">
+                        <i class="bi bi-geo-alt"></i> &ensp; Room 3103, N24 (LG Innovation Hall)
+                    </div>
+                    <!-- <div class="text-left" style="font-size: 14px; margin-bottom:2pt">
+                        <i class="bi bi-telephone"></i> &ensp; optional, otherwise comment out
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ======= Footer Section ======= -->
+    <section id="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style=";">
+                    <hr>
+                    <img alt="KAIST logo" class="img-responsive" src="https://mm.kaist.ac.kr/web_images/kaist_logo_trans.png" style="width:100%; max-width:100pt; margin-bottom:5pt"><br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // 1) Authors 링크 자동화
+    const authors = {
+        "J. Kim": "https://sites.google.com/view/jhoonkim/",
+        "J. S. Chung": "https://mm.kaist.ac.kr/joon/",
+        "H. Ryu": "https://sites.google.com/view/hyeonggonryu",
+        "A. Senocak": "https://ardasnck.github.io/",
+        "J. Jung": "https://sites.google.com/view/jaeminjung/",
+        "J. W. Cho": "https://chojw.github.io/",
+        "D. Kim": "https://sites.google.com/site/djkimcv",
+        "Y. Jang": "https://art-jang.github.io",
+        "H. Raajesh": "https://haran71.github.io/",
+        "L. Momeni": "https://www.robots.ox.ac.uk/~liliane/",
+        "G. Varol": "https://gulvarol.github.io/",
+        "C. Jung": "https://cyongong.github.io/",
+        "T. D. Nguyen": "https://signofthefour.github.io/",
+        "KiHyun Nam": "https://devkihyun.github.io/about/",
+        "J. W. Jung": "https://www.jungjee.com/",
+        "S. Watanabe": "https://sites.google.com/view/shinjiwatanabe/",
+        "Y. Oh": "https://ytaek-oh.github.io/",
+    };
+
+    const pubDivs = document.querySelectorAll("#pubs .card-body");
+
+    pubDivs.forEach(div => {
+        for (const [name, link] of Object.entries(authors)) {
+            const safeName = name.replace(/\./g, "\\.");
+            const regex = new RegExp(`\\b${safeName}\\b`, "g");
+
+            let displayHTML;
+            if (name === "KiHyun Nam") {
+                displayHTML = `<a class="author" href="${link}" target="_blank"><strong>${name}</strong></a>`;
+            } else {
+                displayHTML = `<a class="author" href="${link}" target="_blank">${name}</a>`;
+            }
+
+            div.innerHTML = div.innerHTML.replace(regex, displayHTML);
+        }
+    });
+
+    // 2) 시스템 다크모드 설정에 따라 자동 적용
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (prefersDark) {
+        document.body.classList.add('dark-mode');
+    }
+
+    // 3) 다크모드 토글 버튼 이벤트 연결
+    const toggleBtn = document.getElementById('darkModeToggle');
+    if (toggleBtn) {
+        toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        toggleBtn.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        });
+    }
+});
+</script>
+
+
+</body>
+</html>
+
